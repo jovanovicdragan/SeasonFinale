@@ -1,0 +1,423 @@
+
+@media only screen and (max-width:800px) {
+    /* For mobile phones: */
+*, p, .row, body, .btn, .header, #admnlgn, .logo, iframe, .header div, .logo, #logo, #admnlgn, .navbar, .header div a, .my-search form, .rightcolumn div, .leftcolumn div, .leftcolumn, .rightcolumn, .img-here, .card, .card a, .row, .footer, .datum-vreme, .footer div, .logo-footer,  .navbar-footer, .footer div a, h1 a, h3 a, h5, .category-homepage, .article-homepage, a, .card a, .cela-strana-vest, .naslov h1, .fotka-caption, .generalije, .cela-vest, #user, #pass, #sbb, #sbmt, .form-admin, .cart-items, #logout, .bookprice, .cart-header input, .cart-header form, .korpa a, .korpa, .items,   .items input, .price, .promoted-book input, .promoted-book, div p, .form-control, .my-search form, .rezultati a,  .items h3, .item h1 button, .corpa, .items h3 a img{
+      width: 99% !important;
+      text-align: center;
+      margin-right: 5% !important;
+      align-items: center !important;
+      float: none !important;
+      
+    }
+  }
+
+* {
+  box-sizing: border-box;
+  border-radius: 1%;
+}
+
+body {
+background-color: rgb(255, 255, 255);
+}
+
+.btn{
+   
+    background-color: white;
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  
+}
+.header div{
+    display: inline-block;
+}
+.logo {
+    padding: 2%;
+    text-align: center;
+    font-family: 'Ultra', serif;
+}
+#logo{
+   font-size: xx-large;
+   font-weight:bold ;
+}    
+    
+.navbar {
+    padding: 0.5%;
+    text-align: center;
+    font-family: 'Ultra', serif;
+    margin-left: 2%;
+}
+
+.header div a {
+    text-decoration: none;
+    color: rgb(36, 47, 91);
+    font-size: x-large;
+}
+.header div a:hover {
+    color: rgb(0, 102, 255)
+}
+
+.leftcolumn {   
+  float: left;
+  width: 60%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 40%;
+  padding-left: 20px;
+}
+
+.img-here {
+
+  width: 100%;
+ 
+}
+
+.card {
+   background-color: rgb(255, 255, 255);
+   padding: 1%;
+   margin-top: 20px;
+}
+.card a{
+    font-weight: bold;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.801);
+    
+}
+.datum-vreme{
+    color: rgb(36, 47, 91);
+    padding: 1%;
+    
+}
+.my-search{
+  border: none;
+}
+
+
+.my-search input{
+    font-family: 'Ultra', serif;
+    margin-bottom: 1%;
+    color: rgb(36, 47, 91) !important;
+    background-color: white;
+    border: none;
+    
+}
+.footer div{
+    display: inline-block;
+}
+.logo-footer {
+padding: 2%;
+text-align: center;
+font-family: 'Ultra', serif;
+font-size: xx-large;
+}
+.navbar-footer {
+padding: 2%;
+text-align: center;
+font-family: 'Ultra', serif;
+font-size: large
+}
+.footer div a {
+text-decoration: none;
+color:  rgb(36, 47, 91);
+}
+.footer div a:hover{
+color:rgb(0, 102, 255);
+}
+
+h1 a{
+    text-decoration: none;
+    color: rgb(36, 47, 91);
+    font-family: 'Abril Fatface', cursive;
+}
+h3 a{
+    text-decoration: none;
+    color: rgb(36, 47, 91);
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;    
+}
+h5{
+    color: darkcyan;
+}
+.category-homepage{
+    color: rgb(36, 47, 91);
+}
+.article-homepage{
+    color:  rgb(36, 47, 91);
+  
+}
+a{
+    text-decoration: none;
+}
+.card a {
+    color:  rgb(36, 47, 91);
+}
+.cela-strana-vest{
+    margin-left: 0.5%;
+    text-align: justify;
+}
+.naslov h1{
+    font-family: 'Abril Fatface', cursive;
+    color:  rgb(36, 47, 91);
+}
+.fotka-caption{
+    margin: 1% 0 1% 0;
+    color: rgb(36, 47, 91);
+    object-fit: scale-down;
+}
+
+
+.generalije{
+    margin: 1% 0 1% 1%;
+}
+.cela-vest{
+    margin: 1% 1% 1% 0%;
+    font-size: larger;
+}
+#user{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+#pass{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+#sbb {
+    width: 100%;
+    background-color: rgb(2, 11, 134);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #sbmt {
+    background-color: rgb(2, 11, 134);
+    color: white;
+    padding: 14px 20px;
+    width: 80%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.form-admin{
+
+    margin-top: 5%;
+}
+.pagination .pagenav {
+    display: inline-block;
+    background-color: rgb(2, 11, 134);
+    color: white;
+    border-radius: 15%;
+
+  }
+
+  .pagination a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+
+  
+.pagination a:hover:not(.active) {
+    
+    background-color: rgb(0, 102, 255);
+} 
+
+.rezultati a{
+
+font-size: large;   
+
+}
+.my-search form{
+ 
+  display: inline-block;
+  
+}
+
+
+.my-search form{
+    
+    color: rgb(2, 11, 134);
+    font-family: 'Abril Fatface', cursive;
+
+}
+.form-control{
+    width: 100%;
+}
+p{
+font-family: 'Quicksand', sans-serif !important;
+}
+/*  bookstore css     */
+.promoted-book {
+    box-shadow: 0 4px 8px 0 rgb(0, 102, 255);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .promoted-book input {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(2, 11, 134);
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .promoted-book input:hover {
+    opacity: 0.7;
+  }
+
+  .items {
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgb(2, 11, 134);
+    width: 30%;
+    
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .items input {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(2, 11, 134);
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .items input:hover {
+    opacity: 0.7;
+  }
+.korpa {
+  background-color: rgb(2, 11, 134) ;
+  margin: 1%;
+}
+
+.korpa a{
+  color: white;
+}
+
+.cart-header form{
+  display: inline-block; 
+  padding: 0% 5% 0% 5%;
+  
+}
+.cart-header input{
+  background-color: rgb(36, 47, 91);
+  color: white;
+  padding: 5%;
+border-radius: 7px; 
+}
+
+.cart-header input:hover{
+  
+  color: gold;
+}
+.bookprice{
+  padding: 2%;
+  background-color:rgb(2, 11, 134);
+  color: white;
+}
+#logout{
+  background-color: rgb(2, 11, 134) !important;
+}
+
+.cart-items{
+  background-color: rgb(2, 11, 134);
+  color: white;
+}
+#admnlgn{
+  float: right;
+}
+
+.items button{
+  background-color: rgb(36, 47, 91);
+  color: white;
+  padding: 2%;
+border-radius: 7px;
+}
+.top-page{
+  background-color: rgb(36, 47, 91) !important;
+  padding: 1%;
+border-radius: 7px;
+}
+.top-page a{
+  
+  color: white;
+  
+}
+.rsscontent h3 {
+ background-color: rgb(36, 47, 91);
+}
+
+.rsscontent{
+  
+  width: 60%;
+  margin: 0 auto;
+}
+
+.rsscontent h2{
+  color: rgb(36, 47, 91);
+}
+.rsscontent h2 a{
+  color: rgb(36, 47, 91);
+  text-decoration: none;
+}
+
+.rsscontent .post{
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+.rsscontent .post-head span{
+  font-size: 14px;
+  color: rgb(36, 47, 91);
+  letter-spacing: 1px;
+}
+
+.rsscontent .post-content{
+  font-size: 18px;
+  color: rgb(36, 47, 91);
+}
+
+
