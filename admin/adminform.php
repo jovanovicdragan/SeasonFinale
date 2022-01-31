@@ -54,8 +54,3 @@ $connection->unesiVesti($_GET['naslov'],$_GET['autor'],$_GET['tekst'],$_GET['izv
  
 
 <?php include_once("../html/footer.php")  ?>
-
-
-
-
-

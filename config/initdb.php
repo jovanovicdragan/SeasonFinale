@@ -201,7 +201,4 @@ class Konekcija
 
 }
 
-
-
-
 $connection = new Konekcija();

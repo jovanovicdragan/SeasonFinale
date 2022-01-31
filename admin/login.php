@@ -46,7 +46,4 @@ if(isset($_POST['user']) && isset($_POST['pass'])) {
     <?php if(isset($greska) && $greska) :?>
         <div id='greska'>Wrong data entered.</div>
     <?php endif; ?>
-
-    
-
     <?php include_once("../html/footer.php") ?>
