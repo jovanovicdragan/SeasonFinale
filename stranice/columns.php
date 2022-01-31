@@ -31,7 +31,7 @@ $najnovije = $connection->samoNaslovi();
 echo "
 <div class=\"rightcolumn\">
     <div class=\"card\">
-      <h3><a href=\"./stranice/news.php\">Latest news</a><hr style=\"height:5px; background-color:rgb(2, 11, 134);\"></h3>
+      <h3><a href=\"#\">Latest news</a><hr style=\"height:5px; background-color:rgb(2, 11, 134);\"></h3>
       <a href=\"vesti.php?id=".$najnovije[0]."\">".$najnovije[1]."</a><hr>
       <a href=\"vesti.php?id=".$najnovije[2]."\">".$najnovije[3]."</a><hr>
       <a href=\"vesti.php?id=".$najnovije[4]."\">".$najnovije[5]."</a><hr>
